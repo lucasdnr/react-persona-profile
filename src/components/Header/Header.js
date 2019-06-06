@@ -1,12 +1,13 @@
 import React from 'react';
-import { Navbar, NavItem, Row } from 'react-materialize';
+import { Navbar, Row } from 'react-materialize';
+import { NavLink } from 'react-router-dom';
 
 const header = ( ) => {
     return (
         <Row>
             <Navbar className="grey darken-2">
-                <NavItem href='/'>Home</NavItem>
-                <NavItem href='/contact'>Contact</NavItem>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="contact">Contact</NavLink></li>
             </Navbar>
         </Row>
     );
