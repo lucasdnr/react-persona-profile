@@ -2,12 +2,12 @@ import React from 'react';
 import { Navbar, Row } from 'react-materialize';
 import { NavLink } from 'react-router-dom';
 
-const header = ( ) => {
+const header = () => {
     return (
         <Row>
             <Navbar className="grey darken-2">
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="contact">Contact</NavLink></li>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="contact">Contact</NavLink>
             </Navbar>
         </Row>
     );
