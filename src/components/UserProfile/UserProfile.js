@@ -6,7 +6,7 @@ const userProfile = () => (
   <Card>
       <Row>
         <Col s={8} m={8} offset="s2 m2">
-          <img src={avatar} className="circle responsive-img" />
+          <img src={avatar} className="circle responsive-img" alt="avatar"/>
         </Col>
       </Row>
       <Row className="center-align">
