@@ -10,7 +10,7 @@ const home = () => (
     <Col m={3} s={12}>
       <UserProfile />
     </Col>
-    <Col m={8} s={12}>
+    <Col m={9} s={12}>
         <h5 className="subtitle">About Me</h5>
         <Card>
           <div>
